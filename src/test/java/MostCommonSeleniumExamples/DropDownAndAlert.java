@@ -24,6 +24,8 @@ public class DropDownAndAlert extends DriverClass {
 		String url;
 		WebElement dropdown;
 
+		// Get url by concatenating user directory and relative path of the html
+		// file
 		url = System.getProperty("user.dir") + "\\html\\dropdown.html";
 		driver.get(url);
 

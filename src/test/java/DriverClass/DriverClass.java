@@ -12,6 +12,8 @@ public class DriverClass {
 
 	@BeforeClass
 	public void beforeClass() {
+
+		// Path of the chrome driver
 		chromepath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", chromepath);
 		driver = new ChromeDriver();
